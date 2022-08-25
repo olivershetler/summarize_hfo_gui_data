@@ -1,3 +1,10 @@
-hfo_gui_data/**
+hfo_gui_data/*
 .winenv/**
 .winenv
+
+__pycache__/**
+__pycache__
+**/__pycache__/**
+**/__pycache__
+
+.pytest_cache
