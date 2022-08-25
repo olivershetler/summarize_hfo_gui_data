@@ -1,3 +1,5 @@
+# Make sure you cd to the directory containing this file before suing the pytest or pytest -s commands.
+
 from summarize_hfo_gui_data import (
     write_batch_summary_to_csv
     ,batch_summarize_hfo_gui_data
@@ -14,8 +16,9 @@ import numpy as np
 import pandas as pd
 
 
-cwd = os.getcwd()
-data_dir = os.path.join(cwd, 'hfo_gui_data')
+script_path = os.path.realpath (__file__)
+script_directory = os.path.dirname(script_path)
+data_dir = os.path.join(script_directory, 'hfo_gui_data')
 data_file_path = os.path.join(data_dir, '20170223-NO-3400.xlsx')
 
 def test_write_batch_summary_to_csv():
