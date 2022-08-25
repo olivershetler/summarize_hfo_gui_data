@@ -1,6 +1,6 @@
 # README
 
-This script takes any excel files you place into the `hfo_gui_data` that contain the column names `Duration` and `Interval` (or, if those aren't present, `Durations` and/or `Intervals`). It returns a summary of the data in a new excel file with several statistical parameters.
+This script takes any excel files you place into the `hfo_gui_data` folder that contain the column names `Duration` and `Interval` (or, if those aren't present, `Durations` and/or `Intervals`). It returns a summary of the data in a new excel file with several statistical parameters.
 
 You can find and edit the parameters in the `summarize_column` function in the `summarize_hfo_gui_data` module.
 
