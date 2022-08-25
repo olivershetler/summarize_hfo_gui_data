@@ -1,4 +1,4 @@
-hfo_gui_data/*
+hfo_gui_data/**
 .winenv/**
 .winenv
 
