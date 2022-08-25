@@ -136,7 +136,7 @@ def summarize_column(raw_column):
 
 def main():
     cwd = os.getcwd()
-    data_dir = os.path.join(cwd, 'hfo_gui_data')
+    data_directory = os.path.join(cwd, 'hfo_gui_data')
     output_path = os.path.join(cwd, 'hfo_gui_data_summary.csv')
     write_batch_summary_to_csv(data_directory, output_path)
 
